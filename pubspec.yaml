@@ -1,0 +1,25 @@
+name: flutter_push_notification
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  get_cli: ^1.8.4
+  get: ^4.6.6
+  flutter: 
+    sdk: flutter
+  firebase_messaging: ^14.7.10
+  flutter_local_notifications: ^16.3.2
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
